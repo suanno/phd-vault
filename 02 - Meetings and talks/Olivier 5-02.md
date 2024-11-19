@@ -2,7 +2,7 @@
 There are a lot of physical systems that behave the same near a critical point, this concept is known as _universality_ and the physical systems behaving the same are called to be in the same _class_.,
 All systems that have/are
 - up-down simmetry
-- dissipative (strongly interacting w/ thermostat, so _overdamped_)
+- dissipative (strongly interacting w/ thermostat, so _overdamped_;
 - scalar order parameter $\phi(x,t)$
 - long wavelenght instability (meaning that the unstable modes, the ones which evolution _eplodes in time_, are the long $\lambda$ ones)
 
