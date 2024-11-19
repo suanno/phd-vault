@@ -1,0 +1,1 @@
+I don't get why the $(2\pi)^{-D}$ prefactor of the Fourier transform doesn't show up in DFT, where instead we have a prefactor $N^D$.

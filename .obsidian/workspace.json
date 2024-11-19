@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "811a515f15b8cbb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "65f915ad1e8a7b6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b133317dbcbeeb26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - To understand/About the relation between lenghtscales.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "About the relation between lenghtscales"
+            }
+          },
+          {
+            "id": "4d56a42b2ac93bb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Meetings and talks/Olivier 5-02.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Olivier 5-02"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "037c6a7d956602e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ea6ac2aa822384f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "815a1bd5ef63aba5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d9889e3979d54cc3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "703852e6812fce75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.5
+  },
+  "right": {
+    "id": "b1170d8063f403f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e731881f00721e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25a5c404af7766a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 - Research/Effective dynamics of kinks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Effective dynamics of kinks"
+            }
+          },
+          {
+            "id": "405bfd3e815f42a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 - Research/Effective dynamics of kinks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Effective dynamics of kinks"
+            }
+          },
+          {
+            "id": "13e16f597b89038a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b18873d9f9077b47",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - Meetings and talks/Olivier 5-02.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Olivier 5-02"
+            }
+          },
+          {
+            "id": "09a7a230dbac3dfa",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "09a7a230dbac3dfa",
+  "lastOpenFiles": [
+    "06 - Dictionary/Gibbs free energy.md",
+    "06 - Dictionary/Turing patterns.md",
+    "06 - Dictionary/Non-equilibrium thermodynamics.md",
+    "06 - Dictionary/Untitled.md",
+    "98 - Images/dG.png",
+    "06 - Dictionary/Heteroclinic front.md",
+    "06 - Dictionary/Adiabatic OR Isothermal - phase separation.md",
+    "06 - Dictionary/Coarsening.md",
+    "06 - Dictionary/Travelling wave.md",
+    "06 - Dictionary/Structure factor.md",
+    "06 - Dictionary/Soliton equation.md",
+    "06 - Dictionary/Sub or Super - sonic solitons.md",
+    "06 - Dictionary/Heteroclinic solution.md",
+    "06 - Dictionary/Coarsening exponents.md",
+    "06 - Dictionary/Chord lenght distribution.md",
+    "06 - Dictionary/Phase separation.md",
+    "03 - Research/Motion by curvature corrections.md",
+    "98 - Images/circular domain/small correction.pdf",
+    "02 - Meetings and talks/Olivier 24-11-13.md",
+    "00 - MOC/MAIN.canvas",
+    "00 - MOC/Untitled.canvas",
+    "To do.canvas",
+    "02 - Meetings and talks/Olivier 24-11-8.md",
+    "03 - Research/Comparing all wavelenghts.md",
+    "03 - Research/2D Structure factor.md",
+    "98 - Images/linear dynamics/ratio_ell_ellCC_number_zoom.png",
+    "98 - Images/linear dynamics/ratio_ell_ellCC_number.png",
+    "98 - Images/linear dynamics/ratio_ell_ellCC.png",
+    "98 - Images/linear dynamics",
+    "01 - Bibliography/fourier-transform-tables.jpg",
+    "Pasted image 20241104151224.png",
+    "03 - Research/1D Structure factor.md",
+    "98 - Images/1D structure factor/q2Sq.png",
+    "03 - Research/Effective dynamics of kinks.md",
+    "03 - Research/Effects of initial state on motion by curvature.md",
+    "98 - Images/circular domain/small_correction_2_deviation.png",
+    "01 - Bibliography/Master Report.pdf",
+    "03 - Research/Motion by curvature.md",
+    "small_corre.md",
+    "98 - Images/circular domain/small_correction_2.png",
+    "03 - Research/Controlling the annihilation of two isolated kinks.md",
+    "98 - Images/circular domain/small_correction.png",
+    "98 - Images/circular domain/negative oscillations/varyT",
+    "98 - Images/circular domain/negative oscillations",
+    "98 - Images/circular domain/to present",
+    "98 - Images/1D twokinks/to present",
+    "98 - Images/circular domain/positive oscillations/Cbar=1",
+    "98 - Images/circular domain/positive oscillations",
+    "98 - Images/circular domain/varyA/Cbar=0.1T=50",
+    "00 - MOC/Ideas to develop.canvas",
+    "To understand.canvas",
+    "Untitled.canvas",
+    "03 - Research/Untitled.canvas"
+  ]
+}

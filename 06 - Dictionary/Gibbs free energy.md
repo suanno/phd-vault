@@ -1,0 +1,6 @@
+In a system at fixed temperature and pressure (typical setup of chemical reactions) the Gibbs Free energy decreases as the reaction approaches the equilibrium.
+During the non-equilibrium dynamics (between the initial and the final state) the Gibbs Free energy decreases monotonically.
+This means that the system cannot oscillate around the equilibrium final state, because this would lead to an increase of G. Although, oscillations in the concentration of the chemicals can be observed, as this corresponds to move in the phase space in a circle that contains an equilibrium state, but does not pass through it and so the Gibbs Free energy is the same along the circle (or, if the orbit is not exactly a limit cycle, it decreases slowly).
+![[dG.png]]
+Video: example of an oscillating reaction (BZ reaction). Goes from blue to yellow periodically due to a periodic oscillation of the concentration of reactants that corresponds to a limit cycle in the phase space.
+![https://www.youtube.com/watch?v=ieh9qIkkMJQ]
