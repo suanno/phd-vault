@@ -1,5 +1,5 @@
 ## Universality
-There are a lot of physical systems that behave the same near a critical point, this concept is known as _universality_ and the physical systems behaving the same are called to be in the same _class_.
+There are a lot of physical systems that behave the same near a critical point, this concept is known as _universality_ and the physical systems behaving the same are called to be in the same _class_.,
 All systems that have/are
 - up-down simmetry
 - dissipative (strongly interacting w/ thermostat, so _overdamped_)
