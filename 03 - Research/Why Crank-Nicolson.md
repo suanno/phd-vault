@@ -29,5 +29,7 @@ You can see that $u(t)$ grows or decays exponentially fast also when the average
 # Crank-Nicolson-In-Fourier-Space 
 To integrate the TDGL equation, we apply a Fourier transfrom in x, so
 $$\partial_t u = \partial_{xx}u +C(t)u-u^3$$
-becomes ($u(x,t)\rightarrow U_q(t)$)
-$$\partial_t U_q = -q^2U_q+C(t)U_q-\mathcal{F}[u^3]_q\quad U_q\equiv\mathcal{F}[u(x)]_q$$
+becomes ($u(x,t)\rightarrow \mathcal{F}[u(x,t)]=U_q(t)$)
+$$\partial_t U_q = -q^2U_q+C(t)U_q-\mathcal{F}[u^3]_q$$
+So you get rid of the space derivatives and you use the Crank-Nicolson scheme to integrate the equation in time for a small timestep $dt$. Then you do the inverse fourier transform and you retrieve $u(x,t+dt)$. Then you repeat.
+**NOTE**: Applying the Crank nicholson scheme, 
