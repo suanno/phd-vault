@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - To understand/About the relation between lenghtscales.md",
+                "file": "03 - Research/Why Crank-Nicolson.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About the relation between lenghtscales"
+              "title": "Why Crank-Nicolson"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Olivier 5-02"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 321.5
   },
   "right": {
     "id": "b1170d8063f403f8",
@@ -154,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Meetings and talks/Olivier 5-02.md"
+                "file": "03 - Research/Why Crank-Nicolson.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Olivier 5-02"
+              "title": "Outline of Why Crank-Nicolson"
             }
           },
           {
@@ -171,11 +170,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,8 +188,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09a7a230dbac3dfa",
+  "active": "b133317dbcbeeb26",
   "lastOpenFiles": [
+    "04 - To understand/About the relation between lenghtscales.md",
+    "03 - Research/Why Crank-Nicolson.md",
+    "02 - Meetings and talks/Olivier 5-02.md",
     "06 - Dictionary/Gibbs free energy.md",
     "06 - Dictionary/Turing patterns.md",
     "06 - Dictionary/Non-equilibrium thermodynamics.md",
@@ -227,10 +230,7 @@
     "03 - Research/Effects of initial state on motion by curvature.md",
     "98 - Images/circular domain/small_correction_2_deviation.png",
     "01 - Bibliography/Master Report.pdf",
-    "03 - Research/Motion by curvature.md",
-    "small_corre.md",
     "98 - Images/circular domain/small_correction_2.png",
-    "03 - Research/Controlling the annihilation of two isolated kinks.md",
     "98 - Images/circular domain/small_correction.png",
     "98 - Images/circular domain/negative oscillations/varyT",
     "98 - Images/circular domain/negative oscillations",
