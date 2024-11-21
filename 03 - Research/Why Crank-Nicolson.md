@@ -3,7 +3,7 @@
 We integrate the **TDGL** (or Cahn-Allen) equation::
 $$\partial_t u = \partial_{xx}u +C(t)u-u^3\quad\text{(1D)}$$
 $$\partial_t u = \Delta u +C(t)u-u^3\quad\text{(2D)}$$
-with the Crank-Nicolson scheme (in Fourier space [see here](#Crank-Nicolson-In-Fourier-Space)).
+with the Crank-Nicolson scheme (in Fourier space [here](#Crank-Nicolson in Fourier space).
 The reason is that Implicit and Explicit Euler algorithm do not integrate correctly the dynamics of an initially flat profile $u(x)=u_0$ (0D case).
 
 
@@ -26,10 +26,11 @@ $$\partial_t u = C(t)u$$
 | ![[Explicit Euler explosion.png]] | ![[Implicit Euler explosion.png]] | ![[Crank-Nicolson-Linear.png]] |
 | --------------------------------- | --------------------------------- | ------------------------------ |
 You can see that $u(t)$ grows or decays exponentially fast also when the average value $\braket{C}=0$ if you use Implicit or Explicit Euler schemes. While Cranck Nicholson works fine.
-# Crank-Nicolson-In-Fourier-Space 
+# Crank-Nicolson in Fourier space 
 To integrate the TDGL equation, we apply a Fourier transfrom in x, so
 $$\partial_t u = \partial_{xx}u +C(t)u-u^3$$
 becomes ($u(x,t)\rightarrow \mathcal{F}[u(x,t)]=U_q(t)$)
 $$\partial_t U_q = -q^2U_q+C(t)U_q-\mathcal{F}[u^3]_q$$
 So you get rid of the space derivatives and you use the Crank-Nicolson scheme to integrate the equation in time for a small timestep $dt$. Then you do the inverse fourier transform and you retrieve $u(x,t+dt)$. Then you repeat.
+## Crank-Nicolson scheme
 **NOTE**: Applying the Crank nicholson scheme, 
