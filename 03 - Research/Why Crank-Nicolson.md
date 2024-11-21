@@ -1,6 +1,6 @@
 #Crank-Nicolson #numerical
 
-We integrate the **TDGL** (or Cahn-Allen) equation
+We integrate the **TDGL** (or Cahn-Allen) equation.
 $$\partial_t u = \partial_{xx}u +C(t)u-u^3\quad\text{(1D)}$$
 $$\partial_t u = \Delta u +C(t)u-u^3\quad\text{(2D)}$$
 with the Crank-Nicolson scheme (in Fourier space [see here](#Crank-Nicolson-In-Fourier-Space)).
