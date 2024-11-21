@@ -43,3 +43,5 @@ Now we make an **approximation** in order to get an explicit formula for $U(t+dt
 $$\mathcal{F}[u^3](t+dt)\rightarrow \mathcal{F}[u^3](t)$$
 After this approximation, we isolate $U(t+dt)$ and we find
 $$U(t+dt) = U(t)\frac{(1+\frac{dt}{2}C(t))}{(1-\frac{dt}{2}C(t+dt))}-\frac{\mathcal{F}[u^3](t)dt}{(1-\frac{dt}{2}C(t+dt))}$$
+As you need to compute the FFT of $u^3(t)$ at each step, you need, after each step $dt$, compute the IFFT to get $u(x,t)$, then compute $u^3(x,t)$ and then its FFT. Then you can proceed with the next step.
+**NOTE**: The same approximation we make to use the Crank-Nicolson scheme, would be applied within the Implicit Euler scheme, if you want to implement it.
