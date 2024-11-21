@@ -36,7 +36,8 @@ So you get rid of the space derivatives and you use the Crank-Nicolson scheme to
 ## Crank-Nicolson scheme
 It is formulated by taking an average of the formulas of Implicit and Explicit schemes:
 - Explicit Euler: $$u(t+dt) = u(t) + [C(t)u(t) - u(t)^3]dt$$
-- Implicit Euler: $$u(t+dt) = \frac{u(t)}{1-C(t+dt)dt}$$
-- 
+- Implicit Euler: $$u(t+dt) = u(t)+ [C(t+dt)u(t+dt) - u(t+dt)^3]dt$$
+If we average the two expression (sum them and divide by 2):
+$$u(t+dt)=u(t)+\frac{dt}$$
 $$U(t+dt) = U(t)\frac{(1+\frac{dt}{2}C(t))}{(1-\frac{dt}{2}C(t+dt))}-\frac{\mathcal{F}[u(t)]^3dt}{(1-\frac{dt}{2}C(t+dt))}$$
 **NOTE**: Applying the Crank nicholson scheme, 
