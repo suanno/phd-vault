@@ -1,8 +1,8 @@
 #Crank-Nicolson #numerical
 
 We integrate the **TDGL** (or Cahn-Allen) equation::
-$$\partial_t u = \partial_{xx}u +C(t)u-u^3\quad\text{(1D)}$$
-$$\partial_t u = \Delta u +C(t)u-u^3\quad\text{(2D)}$$
+$$\partial_t u = \partial_{xx}u +C(t)u-\mathcal{F}[u^3]\quad\text{(1D)}$$
+$$\partial_t u = \Delta u +C(t)u-\mathcal{F}[u^3]\quad\text{(2D)}$$
 with the Crank-Nicolson scheme (in Fourier space: [[#Crank-Nicolson in Fourier space]]).
 The reason is that Implicit and Explicit Euler algorithm do not integrate correctly the dynamics of an initially flat profile $u(x)=u_0$ (0D case).
 
@@ -29,17 +29,17 @@ $$\partial_t u = C(t)u$$
 You can see that $u(t)$ grows or decays exponentially fast also when the average value $\braket{C}=0$ if you use Implicit or Explicit Euler schemes. While Cranck Nicholson works fine.
 # Crank-Nicolson in Fourier space 
 To integrate the TDGL equation, we apply a Fourier transfrom in x, so
-$$\partial_t u = \partial_{xx}u +C(t)u-u^3$$
+$$\partial_t u = \partial_{xx}u +C(t)u-\mathcal{F}[u^3]$$
 becomes ($u(x,t)\rightarrow \mathcal{F}[u(x,t)]=U_q(t)$)
-$$\partial_t U_q = -q^2U_q+C(t)U_q-\mathcal{F}[u^3]_q$$
+$$\partial_t U_q = -q^2U_q+C(t)U_q-\mathcal{F}[\mathcal{F}[u^3]]_q$$
 So you get rid of the space derivatives and you use the Crank-Nicolson scheme to integrate the equation in time for a small timestep $dt$. Then you do the inverse fourier transform and you retrieve $u(x,t+dt)$. Then you repeat.
 ## Crank-Nicolson scheme
 It is formulated by taking an average of the formulas of Implicit and Explicit schemes:
-- Explicit Euler: $$U(t+dt) = U(t) + [C(t)U(t) - U(t)^3]dt$$
-- Implicit Euler: $$U(t+dt) = U(t)+ [C(t+dt)U(t+dt) - U^3(t+dt)]dt$$
+- Explicit Euler: $$U(t+dt) = U(t) + [C(t)U(t) - \mathcal{F}[u^3](t)]dt$$
+- Implicit Euler: $$U(t+dt) = U(t)+ [C(t+dt)U(t+dt) - \mathcal{F}[u^3](t+dt)]dt$$
 If we average the two expression (sum them and divide by 2):
-$$U(t+dt)=U(t)+\frac{dt}2[C(t)U(t)-U(t)^3+C(t+dt)U(t+dt)-U^3(t+dt)]$$
+$$U(t+dt)=U(t)+\frac{dt}2[C(t)U(t)-\mathcal{F}[u^3](t)+C(t+dt)U(t+dt)-\mathcal{F}[u^3](t+dt)]$$
 Now we make an **approximation** in order to get an explicit formula for $U(t+dt)$ if you know $U(t)$:
-$$U^3(t+dt)$$
-$$U(t+dt) = U(t)\frac{(1+\frac{dt}{2}C(t))}{(1-\frac{dt}{2}C(t+dt))}-\frac{\mathcal{F}[u(t)]^3dt}{(1-\frac{dt}{2}C(t+dt))}$$
-**NOTE**: Applying the Crank nicholson scheme, 
+$$\mathcal{F}[u^3](t+dt)\rightarrow \mathcal{F}[u^3](t)$$
+After this approximation, we isolate $U(t+dt)$ and we find
+$$U(t+dt) = U(t)\frac{(1+\frac{dt}{2}C(t))}{(1-\frac{dt}{2}C(t+dt))}-\frac{\mathcal{F}[u^3](t)dt}{(1-\frac{dt}{2}C(t+dt))}$$
