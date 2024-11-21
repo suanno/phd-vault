@@ -3,7 +3,7 @@
 We integrate the **TDGL** (or Cahn-Allen) equation::
 $$\partial_t u = \partial_{xx}u +C(t)u-u^3\quad\text{(1D)}$$
 $$\partial_t u = \Delta u +C(t)u-u^3\quad\text{(2D)}$$
-with the Crank-Nicolson scheme (in Fourier space [here](#Crank-Nicolson in Fourier space).
+with the Crank-Nicolson scheme (in Fourier space: [[#Crank-Nicolson in Fourier space]]).
 The reason is that Implicit and Explicit Euler algorithm do not integrate correctly the dynamics of an initially flat profile $u(x)=u_0$ (0D case).
 
 
@@ -20,6 +20,7 @@ Instead, integrating the same system with Crank-Nicolson scheme (in Fourier spac
 ![[Crank-Nicolson no saturation.png]]
 
 # Linear dynamics
+[[#Crank-Nicolson in Fourier space]]
 You can see better why the Euler schemes are not good, by integrating **only the linear part** of the equation. This time there is no need of Fourier transform as the equation to integrate is
 $$\partial_t u = C(t)u$$
 
@@ -33,4 +34,9 @@ becomes ($u(x,t)\rightarrow \mathcal{F}[u(x,t)]=U_q(t)$)
 $$\partial_t U_q = -q^2U_q+C(t)U_q-\mathcal{F}[u^3]_q$$
 So you get rid of the space derivatives and you use the Crank-Nicolson scheme to integrate the equation in time for a small timestep $dt$. Then you do the inverse fourier transform and you retrieve $u(x,t+dt)$. Then you repeat.
 ## Crank-Nicolson scheme
+It is formulated by taking an average of the formulas of Implicit and Explicit schemes:
+- Explicit Euler: $$u(t+dt) = u(t) + [C(t)u(t) - u(t)^3]dt$$
+- Implicit Euler: $$u(t+dt) = \frac{u(t)}{1-C(t+dt)dt}$$
+- 
+$$U(t+dt) = U(t)\frac{(1+\frac{dt}{2}C(t))}{(1-\frac{dt}{2}C(t+dt))}-\frac{\mathcal{F}[u(t)]^3dt}{(1-\frac{dt}{2}C(t+dt))}$$
 **NOTE**: Applying the Crank nicholson scheme, 
