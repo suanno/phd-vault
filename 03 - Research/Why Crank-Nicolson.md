@@ -35,9 +35,11 @@ $$\partial_t U_q = -q^2U_q+C(t)U_q-\mathcal{F}[u^3]_q$$
 So you get rid of the space derivatives and you use the Crank-Nicolson scheme to integrate the equation in time for a small timestep $dt$. Then you do the inverse fourier transform and you retrieve $u(x,t+dt)$. Then you repeat.
 ## Crank-Nicolson scheme
 It is formulated by taking an average of the formulas of Implicit and Explicit schemes:
-- Explicit Euler: $$u(t+dt) = u(t) + [C(t)u(t) - u(t)^3]dt$$
-- Implicit Euler: $$u(t+dt) = u(t)+ [C(t+dt)u(t+dt) - u(t+dt)^3]dt$$
+- Explicit Euler: $$U(t+dt) = U(t) + [C(t)U(t) - U(t)^3]dt$$
+- Implicit Euler: $$U(t+dt) = U(t)+ [C(t+dt)U(t+dt) - U^3(t+dt)]dt$$
 If we average the two expression (sum them and divide by 2):
-$$u(t+dt)=u(t)+\frac{dt}$$
+$$U(t+dt)=U(t)+\frac{dt}2[C(t)U(t)-U(t)^3+C(t+dt)U(t+dt)-U^3(t+dt)]$$
+Now we make an **approximation** in order to get an explicit formula for $U(t+dt)$ if you know $U(t)$:
+$$U^3(t+dt)$$
 $$U(t+dt) = U(t)\frac{(1+\frac{dt}{2}C(t))}{(1-\frac{dt}{2}C(t+dt))}-\frac{\mathcal{F}[u(t)]^3dt}{(1-\frac{dt}{2}C(t+dt))}$$
 **NOTE**: Applying the Crank nicholson scheme, 
