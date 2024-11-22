@@ -11,14 +11,17 @@
             "id": "b133317dbcbeeb26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 - Meetings and talks/olivier 23-10-24.md",
-                "mode": "source",
-                "source": false
+                "file": "00 - MOC/MAIN.canvas",
+                "viewState": {
+                  "x": -925,
+                  "y": 76.5,
+                  "zoom": -1.2425413499475364
+                }
               },
-              "icon": "lucide-file",
-              "title": "olivier 23-10-24"
+              "icon": "lucide-layout-dashboard",
+              "title": "MAIN"
             }
           },
           {
@@ -189,6 +192,9 @@
   },
   "active": "b133317dbcbeeb26",
   "lastOpenFiles": [
+    "00 - MOC/Ideas to develop.canvas",
+    "02 - Meetings and talks/Olivier 17-10-24.md",
+    "02 - Meetings and talks/olivier 23-10-24.md",
     "02 - Meetings and talks/Olivier 24-11-4.md",
     "02 - Meetings and talks/Olivier 24-11-8.md",
     "02 - Meetings and talks/Olivier 24-11-13.md",
@@ -201,7 +207,6 @@
     "structure factor.md",
     "small_corre.md",
     "00 - MOC/Untitled.canvas",
-    "00 - MOC/Ideas to develop.canvas",
     "03 - Research/Why Crank-Nicolson.md",
     "Crank-Nicolson in Fourier space.md",
     "98 - Images/ExplicitImplicitCbar0.png",
@@ -223,9 +228,6 @@
     "06 - Dictionary/Structure factor.md",
     "06 - Dictionary/Soliton equation.md",
     "06 - Dictionary/Sub or Super - sonic solitons.md",
-    "06 - Dictionary/Heteroclinic solution.md",
-    "06 - Dictionary/Coarsening exponents.md",
-    "06 - Dictionary/Chord lenght distribution.md",
     "98 - Images/circular domain/small correction.pdf",
     "98 - Images/linear dynamics/ratio_ell_ellCC_number_zoom.png",
     "98 - Images/linear dynamics/ratio_ell_ellCC_number.png",
