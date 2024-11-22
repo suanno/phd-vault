@@ -11,14 +11,17 @@
             "id": "b133317dbcbeeb26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "03 - Research/Why Crank-Nicolson.md",
-                "mode": "source",
-                "source": false
+                "file": "00 - MOC/Ideas to develop.canvas",
+                "viewState": {
+                  "x": -170.5,
+                  "y": -44.00000000000003,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Why Crank-Nicolson"
+              "icon": "lucide-layout-dashboard",
+              "title": "Ideas to develop"
             }
           },
           {
@@ -189,8 +192,8 @@
   },
   "active": "b133317dbcbeeb26",
   "lastOpenFiles": [
-    "Crank-Nicolson in Fourier space.md",
     "03 - Research/Why Crank-Nicolson.md",
+    "Crank-Nicolson in Fourier space.md",
     "98 - Images/ExplicitImplicitCbar0.png",
     "98 - Images/Implicit Euler explosion.png",
     "98 - Images/Explicit Euler explosion.png",
