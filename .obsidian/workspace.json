@@ -11,17 +11,14 @@
             "id": "b133317dbcbeeb26",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00 - MOC/Ideas to develop.canvas",
-                "viewState": {
-                  "x": -170.5,
-                  "y": -44.00000000000003,
-                  "zoom": 0
-                }
+                "file": "02 - Meetings and talks/Olivier 24-11-8.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Ideas to develop"
+              "icon": "lucide-file",
+              "title": "Olivier 24-11-8"
             }
           },
           {
@@ -192,6 +189,16 @@
   },
   "active": "b133317dbcbeeb26",
   "lastOpenFiles": [
+    "02 - Meetings and talks/Olivier 29-10-24.md",
+    "To do.canvas",
+    "00 - MOC/MAIN.canvas",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Pasted image 20241104151224.png",
+    "structure factor.md",
+    "small_corre.md",
+    "00 - MOC/Untitled.canvas",
+    "00 - MOC/Ideas to develop.canvas",
     "03 - Research/Why Crank-Nicolson.md",
     "Crank-Nicolson in Fourier space.md",
     "98 - Images/ExplicitImplicitCbar0.png",
@@ -220,19 +227,10 @@
     "03 - Research/Motion by curvature corrections.md",
     "98 - Images/circular domain/small correction.pdf",
     "02 - Meetings and talks/Olivier 24-11-13.md",
-    "00 - MOC/MAIN.canvas",
-    "00 - MOC/Untitled.canvas",
-    "To do.canvas",
-    "02 - Meetings and talks/Olivier 24-11-8.md",
-    "03 - Research/Comparing all wavelenghts.md",
-    "03 - Research/2D Structure factor.md",
     "98 - Images/linear dynamics/ratio_ell_ellCC_number_zoom.png",
     "98 - Images/linear dynamics/ratio_ell_ellCC_number.png",
     "98 - Images/linear dynamics/ratio_ell_ellCC.png",
     "98 - Images/linear dynamics",
-    "01 - Bibliography/fourier-transform-tables.jpg",
-    "03 - Research/1D Structure factor.md",
-    "03 - Research/Effective dynamics of kinks.md",
     "01 - Bibliography/Master Report.pdf",
     "98 - Images/circular domain/negative oscillations/varyT",
     "98 - Images/circular domain/negative oscillations",
@@ -241,7 +239,6 @@
     "98 - Images/circular domain/positive oscillations/Cbar=1",
     "98 - Images/circular domain/positive oscillations",
     "98 - Images/circular domain/varyA/Cbar=0.1T=50",
-    "00 - MOC/Ideas to develop.canvas",
     "To understand.canvas",
     "Untitled.canvas",
     "03 - Research/Untitled.canvas"
