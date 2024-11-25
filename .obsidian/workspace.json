@@ -11,17 +11,14 @@
             "id": "b133317dbcbeeb26",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00 - MOC/MAIN.canvas",
-                "viewState": {
-                  "x": -925,
-                  "y": 76.5,
-                  "zoom": -1.2425413499475364
-                }
+                "file": "05 - Tools/Global view of my work.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "MAIN"
+              "icon": "lucide-file",
+              "title": "Global view of my work"
             }
           },
           {
@@ -192,6 +189,9 @@
   },
   "active": "b133317dbcbeeb26",
   "lastOpenFiles": [
+    "00 - MOC/MAIN.canvas",
+    "05 - Tools/Global view of my work.md",
+    "05 - Tools",
     "00 - MOC/Ideas to develop.canvas",
     "02 - Meetings and talks/Olivier 17-10-24.md",
     "02 - Meetings and talks/olivier 23-10-24.md",
@@ -200,7 +200,6 @@
     "02 - Meetings and talks/Olivier 24-11-13.md",
     "02 - Meetings and talks/Olivier 29-10-24.md",
     "To do.canvas",
-    "00 - MOC/MAIN.canvas",
     "Untitled.md",
     "Untitled 1.md",
     "Pasted image 20241104151224.png",
@@ -227,7 +226,6 @@
     "06 - Dictionary/Travelling wave.md",
     "06 - Dictionary/Structure factor.md",
     "06 - Dictionary/Soliton equation.md",
-    "06 - Dictionary/Sub or Super - sonic solitons.md",
     "98 - Images/circular domain/small correction.pdf",
     "98 - Images/linear dynamics/ratio_ell_ellCC_number_zoom.png",
     "98 - Images/linear dynamics/ratio_ell_ellCC_number.png",
@@ -240,7 +238,6 @@
     "98 - Images/1D twokinks/to present",
     "98 - Images/circular domain/positive oscillations/Cbar=1",
     "98 - Images/circular domain/positive oscillations",
-    "98 - Images/circular domain/varyA/Cbar=0.1T=50",
     "To understand.canvas",
     "Untitled.canvas",
     "03 - Research/Untitled.canvas"
