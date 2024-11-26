@@ -37,3 +37,6 @@ Above we showed how the time discretization $dt$ affects the time evolution of $
 If we keep $C=-0.1$, then the non-linearity will never became relevant. We have an analytical formula for the evolution of $\ell$ in this regime, but what happens to the length of the zero level-set $\mathcal{L}=L^2/\ell_{CC}$ in the linear regime?
 This question makes sense, because once the domains emerge, there is coarsening and we expect $\ell_{CC}\sim t^{\frac12}$. But what about the linear regime, where the lenght of the interfaces $\mathcal{L}$ seems to make no sense?
 ![[C=-0.1.png]]
+# Non linear dynamics
+Once $t$ becomes large respect to $\tau_C = \bar{C}^{-1}$ , the linear approximation is no more valid and so the shape $\braket{q^2}(t)$ depends on the shape of $C(t)$, as you can see from the oscillations showing up at large times, but not at short times.
+![[Pasted image 20241126144234.png]]

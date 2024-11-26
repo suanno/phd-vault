@@ -6,6 +6,7 @@
       {
         "id": "65f915ad1e8a7b6f",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "b133317dbcbeeb26",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Tools/Global view of my work.md",
+                "file": "03 - Research/Numerical oscillations of kink position.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Global view of my work"
+              "title": "Numerical oscillations of kink position"
             }
           },
           {
@@ -33,6 +34,30 @@
               },
               "icon": "lucide-file",
               "title": "Olivier 5-02"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7427b7670f3d254a",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "3fdf76feb44f3720",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "To do.canvas",
+                "viewState": {
+                  "x": -350,
+                  "y": 491.0608645533142,
+                  "zoom": -0.46468835199694863
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "To do"
             }
           }
         ]
@@ -168,19 +193,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "0456023c88f92672",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,53 +209,55 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "0456023c88f92672",
+  "active": "b133317dbcbeeb26",
   "lastOpenFiles": [
-    "00 - MOC/MAIN.canvas",
+    "Pasted image 20241126175052.png",
+    "Pasted image 20241126175038.png",
+    "Pasted image 20241126175024.png",
+    "Pasted image 20241126174843.png",
+    "Pasted image 20241126174629.png",
+    "Pasted image 20241126174304.png",
+    "03 - Research/Motion by curvature corrections.md",
+    "03 - Research/Numerical oscillations of kink position.md",
+    "03 - Research/Motion by curvature.md",
+    "03 - Research/Controlling the annihilation of two isolated kinks.md",
+    "03 - Research/Adiabatic limit.md",
+    "03 - Research/ell DW.md",
+    "03 - Research/Comparing all wavelenghts.md",
+    "03 - Research/ell.md",
+    "03 - Research/ell CC.md",
+    "03 - Research/First analytical approach.md",
+    "03 - Research/Linear regime.md",
+    "01 - Bibliography/Linear analysis.pdf",
+    "03 - Research/Observables.md",
+    "Pasted image 20241126144234.png",
+    "03 - Research/Why Crank-Nicolson.md",
+    "numerical critical velocity.png",
+    "double well.png",
+    "C(t) a < 0.png",
+    "C(t) a > 0.png",
+    "03 - Research/Comparing the decay of the distance of two kinks when C is constant or oscillating.md",
+    "06 - Dictionary/Coarsening.md",
+    "06 - Dictionary/Hyperbolic equations.md",
+    "06 - Dictionary/Parabolic equations.md",
+    "06 - Dictionary/Phase separation.md",
+    "06 - Dictionary/Elliptic equations.md",
+    "05 - Tools/NotebookLM.md",
     "05 - Tools/Global view of my work.md",
-    "05 - Tools",
+    "To do.canvas",
+    "Untitled mindmap.md",
+    "05 - Tools/Untitled.canvas",
+    "05 - Tools/test.md",
+    "00 - MOC/MAIN.canvas",
     "00 - MOC/Ideas to develop.canvas",
+    "05 - Tools",
     "02 - Meetings and talks/Olivier 17-10-24.md",
     "02 - Meetings and talks/olivier 23-10-24.md",
-    "02 - Meetings and talks/Olivier 24-11-4.md",
-    "02 - Meetings and talks/Olivier 24-11-8.md",
-    "02 - Meetings and talks/Olivier 24-11-13.md",
-    "02 - Meetings and talks/Olivier 29-10-24.md",
-    "To do.canvas",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Pasted image 20241104151224.png",
-    "structure factor.md",
-    "small_corre.md",
     "00 - MOC/Untitled.canvas",
-    "03 - Research/Why Crank-Nicolson.md",
-    "Crank-Nicolson in Fourier space.md",
-    "98 - Images/ExplicitImplicitCbar0.png",
-    "98 - Images/Implicit Euler explosion.png",
-    "98 - Images/Explicit Euler explosion.png",
-    "98 - Images/Crank-Nicolson-Linear.png",
-    "98 - Images/Crank-Nicolson no saturation.png",
-    "04 - To understand/About the relation between lenghtscales.md",
-    "02 - Meetings and talks/Olivier 5-02.md",
-    "06 - Dictionary/Gibbs free energy.md",
-    "06 - Dictionary/Turing patterns.md",
-    "06 - Dictionary/Non-equilibrium thermodynamics.md",
-    "06 - Dictionary/Untitled.md",
-    "98 - Images/dG.png",
-    "06 - Dictionary/Heteroclinic front.md",
-    "06 - Dictionary/Adiabatic OR Isothermal - phase separation.md",
-    "06 - Dictionary/Coarsening.md",
-    "06 - Dictionary/Travelling wave.md",
-    "06 - Dictionary/Structure factor.md",
-    "06 - Dictionary/Soliton equation.md",
     "98 - Images/circular domain/small correction.pdf",
-    "98 - Images/linear dynamics/ratio_ell_ellCC_number_zoom.png",
-    "98 - Images/linear dynamics/ratio_ell_ellCC_number.png",
-    "98 - Images/linear dynamics/ratio_ell_ellCC.png",
     "98 - Images/linear dynamics",
     "01 - Bibliography/Master Report.pdf",
     "98 - Images/circular domain/negative oscillations/varyT",
@@ -248,7 +265,6 @@
     "98 - Images/circular domain/to present",
     "98 - Images/1D twokinks/to present",
     "98 - Images/circular domain/positive oscillations/Cbar=1",
-    "98 - Images/circular domain/positive oscillations",
     "To understand.canvas",
     "Untitled.canvas",
     "03 - Research/Untitled.canvas"
