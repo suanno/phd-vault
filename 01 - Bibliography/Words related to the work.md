@@ -1,0 +1,4 @@
+- Fe-Cr-X ternary alloy: materials where the Cahn-Allen eq. (NON-conservative dynamics) is known to hold.
+- Pierluigi Colli: Prof. a Padova, articles on Control of CA eq., mathematical proofs of existence
+- Real time dependent Ginzburg Landau eq. (another name for CA eq.)
+- Phase field methods (keyword frequent in articles using CA eq.)

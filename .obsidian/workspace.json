@@ -4,60 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "65f915ad1e8a7b6f",
+        "id": "7c86d7a1ac1c7eec",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "b133317dbcbeeb26",
+            "id": "c07567082dbe233f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Research/Numerical oscillations of kink position.md",
+                "file": "03 - Research/Dynamics of kinks with NEGATIVE oscillations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Numerical oscillations of kink position"
+              "title": "Dynamics of kinks with NEGATIVE oscillations"
             }
           },
           {
-            "id": "4d56a42b2ac93bb2",
+            "id": "3965d29135a9883d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Meetings and talks/Olivier 5-02.md",
+                "file": "03 - Research/Effective dynamics of kinks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Olivier 5-02"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7427b7670f3d254a",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "3fdf76feb44f3720",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "To do.canvas",
-                "viewState": {
-                  "x": -350,
-                  "y": 491.0608645533142,
-                  "zoom": -0.46468835199694863
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "To do"
+              "title": "Effective dynamics of kinks"
             }
           }
         ]
@@ -212,59 +187,59 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b133317dbcbeeb26",
+  "active": "c07567082dbe233f",
   "lastOpenFiles": [
-    "Pasted image 20241126175052.png",
-    "Pasted image 20241126175038.png",
-    "Pasted image 20241126175024.png",
-    "Pasted image 20241126174843.png",
-    "Pasted image 20241126174629.png",
-    "Pasted image 20241126174304.png",
-    "03 - Research/Motion by curvature corrections.md",
-    "03 - Research/Numerical oscillations of kink position.md",
-    "03 - Research/Motion by curvature.md",
+    "98 - Images/twokinks/distance_analytical_exp_comparison2long.png",
+    "03 - Research/Effective dynamics of kinks.md",
+    "03 - Research/Dynamics of kinks with NEGATIVE oscillations.md",
+    "01 - Bibliography/Master Report.pdf",
+    "03 - Research/Untitled.md",
+    "98 - Images/twokinks/distance_analytical_exp_comparison2.png",
+    "98 - Images/twokinks/distance_analytical_exp_comparison.png",
+    "98 - Images/twokinks/analytical_distance_Cpos.png",
+    "98 - Images/twokinks/analytical_Cpos.png",
     "03 - Research/Controlling the annihilation of two isolated kinks.md",
-    "03 - Research/Adiabatic limit.md",
-    "03 - Research/ell DW.md",
     "03 - Research/Comparing all wavelenghts.md",
+    "03 - Research/Adiabatic limit.md",
+    "01 - Bibliography/Kink effective dynamics.pdf",
+    "03 - Research/Numerical oscillations of kink position.md",
+    "03 - Research/Sampling the asymptotic dynamics of two isolated kinks, while it is accelerated by oscillatory C(t).md",
+    "03 - Research/Effects of initial state on motion by curvature.md",
+    "03 - Research/0D dynamics.md",
+    "03 - Research/Motion by curvature corrections.md",
+    "03 - Research/Motion by curvature POSITIVE oscillations.md",
+    "03 - Research/Motion by curvature NEGATIVE oscillations.md",
+    "01 - Bibliography/Words related to the work.md",
+    "0D.md",
+    "0D.png",
+    "03 - Research/Motion by curvature.md",
+    "03 - Research/Linear regime.md",
+    "98 - Images/circular domain/C=1/Ccost.png",
+    "98 - Images/circular domain/positive oscillations/Cbar=1/varyA.png",
+    "98 - Images/circular domain/C=1/dt_slope.png",
+    "98 - Images/circular domain/C=1/dt.png",
+    "98 - Images/circular domain/C=1",
+    "98 - Images/circular domain/positive oscillations/C=1",
+    "98 - Images/circular domain/positive oscillations/Cbar=1/dt_slope.png",
+    "03 - Research/First analytical approach.md",
+    "03 - Research/Sensibility of dynamics on time discretization.md",
+    "02 - Meetings and talks/Olivier 5-02.md",
+    "98 - Images/circular domain/small correction.pdf",
+    "Discussion with Louanne on phonons.md",
+    "03 - Research/1D Structure factor.md",
+    "03 - Research/ell DW.md",
     "03 - Research/ell.md",
     "03 - Research/ell CC.md",
-    "03 - Research/First analytical approach.md",
-    "03 - Research/Linear regime.md",
     "01 - Bibliography/Linear analysis.pdf",
-    "03 - Research/Observables.md",
-    "Pasted image 20241126144234.png",
-    "03 - Research/Why Crank-Nicolson.md",
-    "numerical critical velocity.png",
-    "double well.png",
-    "C(t) a < 0.png",
-    "C(t) a > 0.png",
-    "03 - Research/Comparing the decay of the distance of two kinks when C is constant or oscillating.md",
-    "06 - Dictionary/Coarsening.md",
-    "06 - Dictionary/Hyperbolic equations.md",
-    "06 - Dictionary/Parabolic equations.md",
-    "06 - Dictionary/Phase separation.md",
-    "06 - Dictionary/Elliptic equations.md",
-    "05 - Tools/NotebookLM.md",
-    "05 - Tools/Global view of my work.md",
     "To do.canvas",
-    "Untitled mindmap.md",
     "05 - Tools/Untitled.canvas",
-    "05 - Tools/test.md",
     "00 - MOC/MAIN.canvas",
     "00 - MOC/Ideas to develop.canvas",
     "05 - Tools",
-    "02 - Meetings and talks/Olivier 17-10-24.md",
-    "02 - Meetings and talks/olivier 23-10-24.md",
     "00 - MOC/Untitled.canvas",
-    "98 - Images/circular domain/small correction.pdf",
     "98 - Images/linear dynamics",
-    "01 - Bibliography/Master Report.pdf",
     "98 - Images/circular domain/negative oscillations/varyT",
     "98 - Images/circular domain/negative oscillations",
-    "98 - Images/circular domain/to present",
-    "98 - Images/1D twokinks/to present",
-    "98 - Images/circular domain/positive oscillations/Cbar=1",
     "To understand.canvas",
     "Untitled.canvas",
     "03 - Research/Untitled.canvas"
