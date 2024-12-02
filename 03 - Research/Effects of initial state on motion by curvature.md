@@ -18,4 +18,4 @@ Here I show also the profile of the initial states considered above, obtained by
 ![[98 - Images/circular domain/initial conditions/C0=1A=1T=50.png]]
 ![[98 - Images/circular domain/initial conditions/saves/C0=1A=1T=50.png]]
 ### But remember that
-Motion by curvature is a first (leading) order effects, so if C changes the curve $R(t)$ will change. See [[Motion by curvature corrections]].
+Motion by curvature is a first (leading) order effects, so if C changes the curve $R(t)$ will change. See [[Motion by curvature CORRECTIONS]].

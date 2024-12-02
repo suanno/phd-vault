@@ -1,0 +1,4 @@
+/* Force page break before each new chapter */
+.reveal .slides section h1 {
+  page-break-before: always;
+}

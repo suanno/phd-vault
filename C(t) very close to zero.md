@@ -1,0 +1,1 @@
+Discuss about the intrinsic timescale tau_c

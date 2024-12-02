@@ -22,7 +22,7 @@ $l_{CC}$ s**eems to behave as $t\sim \frac12$ both in the linear and non-linear 
 - Around $t=10$ the slope slightly changes (red dashed line). However we expect that, due to coarsening, $\ell_{CC}\sim t^{\frac12}$ asymptotically.
 Fitted regions: $t = [1,10]$ (green dashed line); $t = [20,100]$ (red dashed line).
 ![[change_of_slope.png|300]]![[change_of_slope_zoom.png|300]]
-See [[Linear regime#Keeping the system in the linear regime]] for more observations of $\ell_{CC}$ in the linear regime.
+See [[03 - Research/Linear regime#Keeping the system in the linear regime]] for more observations of $\ell_{CC}$ in the linear regime.
 # Comparison (Linear regime)
 Does the ratio between $\ell_C$ and $\ell_{CC}$ in the linear regime depend on the choice of $C$?
 It seems **no**.

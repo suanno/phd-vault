@@ -16,7 +16,7 @@ $\ell(t)$ is expected to evolve, during the linear regime, independently on C(t)
 The experimental ratio $\ell(t)/\ell_{CC}(t)$ during the linear regime is $\simeq 0.8$.
 
 # Dynamics of kinks under C(t)'s oscillations
-Including the first order correction to the kink's shape when $C(t)$ is **slowly oscillating and strictly positive** in the calculations of [[Effective dynamics of kinks]], we find that
+Including the first order correction to the kink's shape when $C(t)$ is **slowly oscillating and strictly positive** in the calculations of [[Effective dynamics of kinks under slow POSITIVE oscillations]], we find that
 $\dot{x}_n(t)$ evolves in the same way it evolves if $C$ is constant, but you substitute $C=C(t)$.
 This holds in the limit when $\epsilon\rightarrow 0$, where $\epsilon\sim T^{-1}$ describes how slowly $C(t)$ varies in time.
 We **expected** this result, because in the limit $\epsilon\rightarrow 0$ we expect **adiabatic dynamics**. Although what is surprising is that the correction to the formula of $\dot{x}_n$ that is of order $\sim \epsilon^1$ is zero, so the first order correction is of order $\sim \epsilon^2$.
