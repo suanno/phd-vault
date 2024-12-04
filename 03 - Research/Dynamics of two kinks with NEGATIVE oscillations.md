@@ -1,6 +1,6 @@
 #twokinks #1D #negativeC #numerical 
 
-We have an analytical formula for the kink's **dynamics** in the limit of strictly positive C(t) and slow oscillations [[Effective dynamics of kinks under slow POSITIVE oscillations]]
+We have an analytical formula for the kink's **dynamics** in the limit of strictly **positive** C(t) and **slow** oscillations [[Kinks effective dynamics under slow POSITIVE oscillations]]
 $$\dot{d}(t)\simeq-24\sqrt{2} C^{\frac12}(t)e^{-2^{\frac12}C(t)^{\frac12}d}$$
 ## Comparison with experiments
 Here we verify if, in the case where C(t) assumes sometimes negative values (but with a positive average: $0<\bar{C}<A$) the law is still valid, **assuming that the kinks do not move while C<0**:

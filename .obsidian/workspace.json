@@ -8,30 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c07567082dbe233f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Research/Motion by curvature POSITIVE slow oscillations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Motion by curvature POSITIVE slow oscillations"
-            }
-          },
-          {
-            "id": "63572ba2c82900ff",
+            "id": "31e1ce01f8a08162",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "00 - MOC/Global view.canvas",
                 "viewState": {
-                  "x": 215,
-                  "y": 824.9072046109511,
-                  "zoom": -0.5854243848425623
+                  "x": 339.5,
+                  "y": 971.8893371757925,
+                  "zoom": -0.7210794842001287
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -39,21 +25,90 @@
             }
           },
           {
-            "id": "3965d29135a9883d",
+            "id": "8e4790e2fe472971",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negative average.md",
+                "file": "03 - Research/Motion by curvature NEGATIVE slow oscillations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Negative average"
+              "title": "Motion by curvature NEGATIVE slow oscillations"
+            }
+          },
+          {
+            "id": "70d0570f43952326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/Adiabatic limit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adiabatic limit"
+            }
+          },
+          {
+            "id": "5e7a314b0ee12dea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/Multiple scales expansion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multiple scales expansion"
+            }
+          },
+          {
+            "id": "1e6902490305853c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/0D dynamics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0D dynamics"
+            }
+          },
+          {
+            "id": "502de059f0ff5948",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/Adiabatic limit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adiabatic limit"
+            }
+          },
+          {
+            "id": "aae1046fdc6a44df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/Phase transition to oscillatory dynamics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Phase transition to oscillatory dynamics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,58 +261,59 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "63572ba2c82900ff",
+  "active": "31e1ce01f8a08162",
   "lastOpenFiles": [
-    "03 - Research/Annihilation of two kinks with NEGATIVE oscillations.md",
-    "03 - Research/Adiabatic limit.md",
-    "98 - Images/twokinks/dt.png",
-    "03 - Research/Dynamics of two kinks with NEGATIVE oscillations.md",
-    "03 - Research/Comparing all wavelenghts.md",
-    "03 - Research/Effective dynamics of kinks under slow POSITIVE oscillations.md",
+    "03 - Research/Motion by curvature POSITIVE slow oscillations.md",
     "00 - MOC/Global view.canvas",
+    "03 - Research/Motion by curvature NEGATIVE slow oscillations.md",
+    "Motion by curvature fast oscillations.md",
+    "03 - Research/Kink effective dynamics under FAST oscillations.md",
+    "03 - Research/Kink effective dynamics under slow POSITIVE oscillations (theory).md",
+    "03 - Research/Kinks effective dynamics under slow POSITIVE oscillations.md",
+    "03 - Research/Fast oscillations 1D.md",
+    "03 - Research/Slow positive oscillations 1D.md",
+    "**Slow** oscillations.md",
+    "0D.md",
+    "C very close to zero.md",
+    "Discussion with Louanne on phonons.md",
+    "double well.png",
+    "numerical critical velocity.png",
+    "Kink's shape correction.md",
+    "03 - Research/Negative average.md",
+    "98 - Images/eps1cent.png",
+    "98 - Images/eps10cent.png",
+    "03 - Research/Multiple scales expansion.md",
+    "03 - Research/Phase transition to oscillatory dynamics.md",
+    "03 - Research/0D dynamics.md",
+    "03 - Research/Adiabatic limit.md",
+    "tau_linear.md",
+    "97 - Presentations/Linear regime.md",
+    "03 - Research/Structure factor measure in (3D) liquids.md",
+    "03 - Research/Sensibility of dynamics on time discretization.md",
+    "03 - Research/Sampling the asymptotic dynamics of two isolated kinks, while it is accelerated by oscillatory C(t).md",
+    "03 - Research/Relations between the wavelenghts.md",
+    "03 - Research/Observables.md",
+    "03 - Research/Numerical oscillations of kink position.md",
+    "98 - Images/comparing wavelwnghts/T=25_closetozero_ellDW.png",
+    "98 - Images/comparing wavelwnghts/T=25_closetozero_asymp.png",
+    "98 - Images/comparing wavelwnghts/T=25_closetozero.png",
+    "98 - Images/2D phase transition/saturationN=4096Stripe.png",
+    "98 - Images/2D phase transition/saturationN=4096.png",
+    "01 - Bibliography/Tanaka - Periodic Spinodal Decomposition in a Binary Polymeric Fluid Mixture.pdf",
+    "01 - Bibliography/Onuki.pdf",
+    "98 - Images/comparing wavelwnghts/C0=1A=0.25T=0.1.png",
+    "docs",
+    "98 - Images/2D phase transition",
+    "98 - Images/1D twokinks/movies",
+    "01 - Bibliography/Linear analysis.pdf",
+    "98 - Images/ramp quench",
+    "canvas-export.html",
     "00 - MOC/Ideas to develop.canvas",
     "00 - MOC/MAIN.canvas",
-    "03 - Research/Motion by curvature POSITIVE slow oscillations.md",
-    "Negative average.md",
-    "03 - Research/Motion by curvature NEGATIVE slow oscillations.md",
-    "03 - Research/Motion by curvature CORRECTIONS.md",
-    "03 - Research/Linear regime.md",
-    "97 - Presentations/Linear regime.md",
-    "Motion by curvature fast oscillations.md",
-    "03 - Research/Why Crank-Nicolson.md",
-    "98 - Images/circular domain/varyT/Cbar=0.1A=1/small.png",
-    "03 - Research/cMotion by curvature NEGATIVE oscillations.md",
-    "03 - Research/Numerical oscillations of kink position.md",
-    "98 - Images/circular domain/negative oscillations/numerical_effect.png",
-    "03 - Research/0D dynamics.md",
-    "05 - Tools/Global view of my work.md",
     "97 - Presentations",
-    "03 - Research/First analytical approach.md",
-    "03 - Research/ell DW.md",
-    "03 - Research/Test.md",
-    "C(t) very close to zero.md",
-    "00 - MOC/Ma.md",
-    "98 - Images/twokinks/distance_analytical_exp_comparison2long.png",
     "01 - Bibliography/Master Report.pdf",
-    "03 - Research/Untitled.md",
-    "98 - Images/twokinks/distance_analytical_exp_comparison2.png",
-    "98 - Images/twokinks/distance_analytical_exp_comparison.png",
-    "98 - Images/twokinks/analytical_distance_Cpos.png",
-    "98 - Images/twokinks/analytical_Cpos.png",
-    "01 - Bibliography/Kink effective dynamics.pdf",
-    "03 - Research/Sampling the asymptotic dynamics of two isolated kinks, while it is accelerated by oscillatory C(t).md",
-    "03 - Research/Effects of initial state on motion by curvature.md",
-    "0D.png",
-    "98 - Images/circular domain/C=1/Ccost.png",
-    "98 - Images/circular domain/C=1",
-    "98 - Images/circular domain/positive oscillations/C=1",
-    "98 - Images/circular domain/small correction.pdf",
-    "01 - Bibliography/Linear analysis.pdf",
     "To do.canvas",
     "05 - Tools/Untitled.canvas",
-    "05 - Tools",
-    "98 - Images/linear dynamics",
-    "98 - Images/circular domain/negative oscillations/varyT",
     "To understand.canvas",
     "Untitled.canvas",
     "03 - Research/Untitled.canvas"

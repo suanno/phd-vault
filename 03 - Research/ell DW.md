@@ -5,7 +5,7 @@ Where $W$ is the **thickness** (or **width**) of the interface, **defined as** t
 To understand why it represents the average domain size, you should notice that the ratio 
 $$\frac{\int |\nabla u|^2 dxdy}{W}$$
 is an estimate of the **total interface lenght**, as the gradient is peaked only in the regions close to the interfaces and almost zero everywhere else.
-To understand why $\ell_{DW}$ represents the average domain size, think that in 1D the total interface lenght is naturally the number of kinks, and so if you divide the size of the system (that in 1D is $L$) by the number of kinks, you will get the average kink's lenght.
+To understand why $\ell_{DW}$ represents the average domain size, think that in 1D the **analog** of the total interface lenght is **naturally** the number of kinks, and so if you divide the size of the system (that in 1D is $L$) by the number of kinks, you will get the average kink's lenght.
 ### Estimating the thickness (width) of the interface
 It  is **NOT EASY to estimate the thickness** of the interface, but in the fast oscillations limit, a good **estimate** can be obtained by considering the stationary state with $C=\bar{C}$:
 $$u_k(\xi) = \sqrt{C}\tanh(\sqrt{\frac{C}{2}}\xi)$$

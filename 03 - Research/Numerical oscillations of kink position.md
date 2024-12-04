@@ -8,7 +8,7 @@ and $C=C(t)$ is oscillating, **does the position of the kink(s) oscillate too?**
 **NO**, the oscillation of the kink position that you see starting from an initially symmetric state is a numerical effect.
 ## Long Answer
 We do not have analytical arguments to give a rigorous answer. 
-What we can say is that, due to the analysis of [[Effective dynamics of kinks under slow POSITIVE oscillations]], that we managed to extend also to the slow oscillating limit (up to first order), the kinks should not move.
+What we can say is that, due to the analysis of [[Kinks effective dynamics under slow POSITIVE oscillations]], that we managed to extend also to the slow oscillating limit (up to first order), the kinks should not move.
 We expect that they do not move (on average) to the left or the right and additionally we expect they do not oscillate!
 But this argument is valid only in the limit of slow oscillations and up to first order, so is **not valid in general! So let's make simulations!**
 
