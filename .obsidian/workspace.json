@@ -11,17 +11,56 @@
             "id": "31e1ce01f8a08162",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00 - MOC/Global view.canvas",
-                "viewState": {
-                  "x": 339.5,
-                  "y": 971.8893371757925,
-                  "zoom": -0.7210794842001287
-                }
+                "file": "03 - Research/Intrinsic time-scale.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Global view"
+              "icon": "lucide-file",
+              "title": "Intrinsic time-scale"
+            }
+          },
+          {
+            "id": "0586d3666372f16f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/Linear regime.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear regime"
+            }
+          },
+          {
+            "id": "d31175a619ddb235",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/Multiple scales expansion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multiple scales expansion"
+            }
+          },
+          {
+            "id": "2429f9475fc6b669",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Research/Linear regime.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear regime"
             }
           },
           {
@@ -263,45 +302,46 @@
   },
   "active": "31e1ce01f8a08162",
   "lastOpenFiles": [
-    "03 - Research/Motion by curvature POSITIVE slow oscillations.md",
-    "00 - MOC/Global view.canvas",
-    "03 - Research/Motion by curvature NEGATIVE slow oscillations.md",
+    "numerical critical velocity.png",
+    "To do.canvas",
+    "tc.png",
+    "tau_linear.md",
     "Motion by curvature fast oscillations.md",
+    "Kink's shape correction.md",
+    "double well.png",
+    "Discussion with Louanne on phonons.md",
+    "C very close to zero.md",
+    "0D.png",
+    "0D.md",
+    "**Slow** oscillations.md",
+    "03 - Research/Intrinsic time-scale.md",
+    "00 - MOC/Global view.canvas",
+    "Intrinsic time-scale $/tau_{linear}$.md",
+    "Intrinsic time-scale $",
+    "03 - Research/Multiple scales expansion.md",
+    "03 - Research/Adiabatic limit.md",
+    "03 - Research/Negative average.md",
+    "03 - Research/Relations between the wavelenghts.md",
+    "03 - Research/Linear regime.md",
+    "03 - Research/Phase transition to oscillatory dynamics.md",
+    "97 - Presentations/Linear regime.md",
+    "03 - Research/Motion by curvature POSITIVE slow oscillations.md",
+    "03 - Research/Motion by curvature NEGATIVE slow oscillations.md",
     "03 - Research/Kink effective dynamics under FAST oscillations.md",
     "03 - Research/Kink effective dynamics under slow POSITIVE oscillations (theory).md",
     "03 - Research/Kinks effective dynamics under slow POSITIVE oscillations.md",
     "03 - Research/Fast oscillations 1D.md",
     "03 - Research/Slow positive oscillations 1D.md",
-    "**Slow** oscillations.md",
-    "0D.md",
-    "C very close to zero.md",
-    "Discussion with Louanne on phonons.md",
-    "double well.png",
-    "numerical critical velocity.png",
-    "Kink's shape correction.md",
-    "03 - Research/Negative average.md",
     "98 - Images/eps1cent.png",
     "98 - Images/eps10cent.png",
-    "03 - Research/Multiple scales expansion.md",
-    "03 - Research/Phase transition to oscillatory dynamics.md",
     "03 - Research/0D dynamics.md",
-    "03 - Research/Adiabatic limit.md",
-    "tau_linear.md",
-    "97 - Presentations/Linear regime.md",
     "03 - Research/Structure factor measure in (3D) liquids.md",
-    "03 - Research/Sensibility of dynamics on time discretization.md",
-    "03 - Research/Sampling the asymptotic dynamics of two isolated kinks, while it is accelerated by oscillatory C(t).md",
-    "03 - Research/Relations between the wavelenghts.md",
-    "03 - Research/Observables.md",
-    "03 - Research/Numerical oscillations of kink position.md",
     "98 - Images/comparing wavelwnghts/T=25_closetozero_ellDW.png",
     "98 - Images/comparing wavelwnghts/T=25_closetozero_asymp.png",
     "98 - Images/comparing wavelwnghts/T=25_closetozero.png",
     "98 - Images/2D phase transition/saturationN=4096Stripe.png",
-    "98 - Images/2D phase transition/saturationN=4096.png",
     "01 - Bibliography/Tanaka - Periodic Spinodal Decomposition in a Binary Polymeric Fluid Mixture.pdf",
     "01 - Bibliography/Onuki.pdf",
-    "98 - Images/comparing wavelwnghts/C0=1A=0.25T=0.1.png",
     "docs",
     "98 - Images/2D phase transition",
     "98 - Images/1D twokinks/movies",
@@ -311,8 +351,6 @@
     "00 - MOC/Ideas to develop.canvas",
     "00 - MOC/MAIN.canvas",
     "97 - Presentations",
-    "01 - Bibliography/Master Report.pdf",
-    "To do.canvas",
     "05 - Tools/Untitled.canvas",
     "To understand.canvas",
     "Untitled.canvas",

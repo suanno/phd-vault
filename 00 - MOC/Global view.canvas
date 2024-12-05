@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"666d0bdd04df853f","type":"text","text":"$$\\partial_{t}u = \\Delta u + C(t)u - u^3$$\nwith oscillating C(t)\n$$C(t)=\\bar{C}+A\\sin\\left( \\frac{2\\pi t}{T} \\right)$$\n","x":-180,"y":-120,"width":240,"height":160,"color":"4"},
-		{"id":"03922e8d6438837e","type":"text","text":"[[97 - Presentations/Linear regime|Linear regime]]","x":-348,"y":160,"width":168,"height":60},
+		{"id":"03922e8d6438837e","type":"text","text":"[[97 - Presentations/Linear regime|Linear regime]]","x":-348,"y":160,"width":168,"height":60,"color":"4"},
 		{"id":"a2fd64a569b57362","type":"text","text":"Slow oscillations","x":420,"y":320,"width":185,"height":66},
 		{"id":"c4a26de91c885292","type":"text","text":"[[Adiabatic limit|Adiabatic limit]]","x":180,"y":411,"width":168,"height":60,"color":"4"},
 		{"id":"05367d15b1a7cb0c","type":"text","text":"Non-linear regime","x":0,"y":160,"width":197,"height":55},
@@ -29,7 +29,10 @@
 		{"id":"a4fcf20fa32beed2","type":"text","text":"[[Motion by curvature fast oscillations|Circular island collapse]]","x":-478,"y":1107,"width":126,"height":85},
 		{"id":"cb90198c3fbd875d","type":"text","text":"MBC","x":-376,"y":1003,"width":103,"height":60},
 		{"id":"4f6dda0da59c2a5a","type":"text","text":"[[Comparing all wavelenghts fast oscillations|Comparison]]\n$$\\ell, \\ell_{DW}, \\ell_{CC}$$","x":-324,"y":1111,"width":175,"height":76},
-		{"id":"cb6925918a23ff13","type":"text","text":"2D","x":-372,"y":832,"width":95,"height":60}
+		{"id":"cb6925918a23ff13","type":"text","text":"2D","x":-372,"y":832,"width":95,"height":60},
+		{"id":"bcd31bec8a2b4079","type":"text","text":"[[03 - Research/Linear regime#Selecting the wavelenght $ ell$ in the non-linear regime|Control of domain size]]","x":-665,"y":160,"width":250,"height":60,"color":"1"},
+		{"id":"aa1d1d55d836218f","type":"text","text":"[[Phase transition to oscillatory dynamics#Conclusions|Noise does not necessarly destroy domains]]","x":1169,"y":952,"width":273,"height":81,"color":"4"},
+		{"id":"73866e877d69d84e","type":"text","text":"[[Intrinsic time-scale]]","x":-125,"y":411,"width":250,"height":60,"color":"1"}
 	],
 	"edges":[
 		{"id":"8537c93b6f09199e","fromNode":"666d0bdd04df853f","fromSide":"top","toNode":"73b2fc654f0d11bd","toSide":"bottom"},
@@ -61,6 +64,9 @@
 		{"id":"1fab77ed09233986","fromNode":"5c17b59698c467a9","fromSide":"bottom","toNode":"2cf7e98451e08fc5","toSide":"top"},
 		{"id":"9d6f559afe00415e","fromNode":"789b5dc47e898370","fromSide":"right","toNode":"ffd2f82f79b5d150","toSide":"top"},
 		{"id":"15ec9e6dc9dff8b2","fromNode":"c6ead800d4e42514","fromSide":"right","toNode":"930bc8d43f01401d","toSide":"left"},
-		{"id":"fdaeff9d41f123bf","fromNode":"a2fd64a569b57362","fromSide":"left","toNode":"930bc8d43f01401d","toSide":"right"}
+		{"id":"fdaeff9d41f123bf","fromNode":"a2fd64a569b57362","fromSide":"left","toNode":"930bc8d43f01401d","toSide":"right"},
+		{"id":"9fb73cfdc7877368","fromNode":"03922e8d6438837e","fromSide":"left","toNode":"bcd31bec8a2b4079","toSide":"right"},
+		{"id":"6b56c48c87a6d232","fromNode":"ffd2f82f79b5d150","fromSide":"bottom","toNode":"aa1d1d55d836218f","toSide":"top"},
+		{"id":"d3ffee49184482d2","fromNode":"930bc8d43f01401d","fromSide":"bottom","toNode":"73866e877d69d84e","toSide":"top"}
 	]
 }

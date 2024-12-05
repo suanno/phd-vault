@@ -38,6 +38,8 @@ As the linear dynamics is not affected by C(t), but the duration of this dynamic
 In 2D this is useless, as the wavelenght will continue to grow in the non-linear regime as a power law, but in 1D the non-linear dynamics is almost frozen, so you can select the typical wavelenght of the system in this way.
 Here you see an example in a 1D system, different choices of C lead to different asymptotic values of $\ell$.
 ![[tc.png]]
+==Notice that we have a theory (the one described above) that enables to tune $C(t)$ for selecting the "asymptotic value" of $\ell$, **but we do not know how $\ell$ and $\ell_{CC}$** (that is the typical lenght of domains) **are related, except asymptotically.**== [[Relations between the wavelenghts#Comparison (Asymptotically)]]
+==So we know that it is possible to select the typical lenght of domains by properly tuning C, but we do not have an analytical expression. The physical meaning of $\ell$ is not clear.==
 # Keeping the system in the linear regime 
 If we keep $C=-0.1$, then the non-linearity will never became relevant. We have an analytical formula for the evolution of $\ell$ in this regime, but what happens to the length of the zero level-set $\mathcal{L}=L^2/\ell_{CC}$ in the linear regime?
 This question makes sense, because once the domains emerge, there is coarsening and we expect $\ell_{CC}\sim t^{\frac12}$. But what about the linear regime, where the lenght of the interfaces $\mathcal{L}$ seems to make no sense?
