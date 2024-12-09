@@ -25,6 +25,24 @@ In this case, we can verify the predicted result that prefactor of the logarithm
 ![[decay.png]] ![[prefactor_slope.png]]
 #### C(t) is a slow and positive oscillation
 Here we can compare the expected law for $\dot{d}$ with a numerical simulation. Here the equation for $\dot{d}$ is integrated with Explicit Euler.
-$$C(t)=1+1\sin\left( \frac{2\pi t}{500} \right)$$
-![[C0=1A=1T=500.png]]
-There isn't a good match, probably because the distance decays when C is very close to zero and there **the intrinsic timescale of the problem $\tau_{C}\sim C^{-1}$ diverges**, so we are no more in the limit of slow oscillations.
+
+| $$C(t)=1+0.1\sin\left( \frac{2\pi t}{500} \right)$$![[C0=1A=0.1.png]] | $$C(t)=1+1\sin\left( \frac{2\pi t}{500} \right)$$![[C0=1A=1T=500.png]] |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
+There isn't a good match when $A=1$, probably because the distance decays when C is very close to zero and there **the intrinsic timescale of the problem $\tau_{C}\sim C^{-1}$ diverges**, so we are no more in the limit of slow oscillations.
+
+### Comparing $\partial_{t}d$
+Below, if the measured value of $\partial_{t}d$ is less than 1e-15, then it is put to 1e-17.
+$$\bar{C}=1; T=500$$
+
+| A=1/10![[A=0.1_3T4Tzoom.png]] | A=1/5![[A=0.2_3T4T.png]]    |
+| ----------------------------- | --------------------------- |
+| **A=0.2**![[C0=1A=0.2.png]]   | **A=0.3**![[C0=1A=0.3.png]] |
+
+| A=1/3![[C0=1A=0.33T=500_dddt_C.png]] | A=1/2![[C0=1A=0.5T=500_dddt_C.png]] | A=3/4![[C0=1A=0.75T=500_dddt_C.png]] |
+| ------------------------------------ | ----------------------------------- | ------------------------------------ |
+An if $C(t)$ gets too close to zero (**A=0.95**)
+![[C0=1A=0.95.png]]
+
+| ![[A=0.95_3T4T.png]] | ![[A=0.95_4T5T.png]] | ![[A=0.95_6T7T.png]] |
+| -------------------- | -------------------- | -------------------- |

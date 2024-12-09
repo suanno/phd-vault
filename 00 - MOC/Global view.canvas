@@ -32,7 +32,7 @@
 		{"id":"cb6925918a23ff13","type":"text","text":"2D","x":-372,"y":832,"width":95,"height":60},
 		{"id":"bcd31bec8a2b4079","type":"text","text":"[[03 - Research/Linear regime#Selecting the wavelenght $ ell$ in the non-linear regime|Control of domain size]]","x":-665,"y":160,"width":250,"height":60,"color":"1"},
 		{"id":"aa1d1d55d836218f","type":"text","text":"[[Phase transition to oscillatory dynamics#Conclusions|Noise does not necessarly destroy domains]]","x":1169,"y":952,"width":273,"height":81,"color":"4"},
-		{"id":"73866e877d69d84e","type":"text","text":"[[Intrinsic time-scale]]","x":-125,"y":411,"width":250,"height":60,"color":"1"}
+		{"id":"73866e877d69d84e","type":"text","text":"[[Timescales]]","x":-125,"y":411,"width":250,"height":60,"color":"1"}
 	],
 	"edges":[
 		{"id":"8537c93b6f09199e","fromNode":"666d0bdd04df853f","fromSide":"top","toNode":"73b2fc654f0d11bd","toSide":"bottom"},

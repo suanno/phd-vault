@@ -9,11 +9,7 @@ Here we verify if, in the case where C(t) assumes sometimes negative values (but
 Clearly, the distance changes significatively when C is negative, so our assumption does not hold at all! And so there is no match between the two curves.
 ## Slightly positive C
 Notice that the orange curve changes significatively only when C gets very close to zero. This suggests to plot the function $\dot{d}$ as a function of C
-![[analytical_distance_Cpos.png]]
+![[dddt.png]]
 You can see that there is a **power-law** **divergence of the kinks velocity** if $C \rightarrow 0^+$. This suggests that we could accelerate the kinks annhilation **with strictly positive oscillations**. But notice that, as $\tau_{C} \sim C^{-1}$, it will be necessary to consider a long period T in order to keep the _slow oscillations_ approximation valid.
-## Comparison with experiments 2
-Instead of considering the dynamics still when C<0 (that it's clearly false) we can consider C to get an effective value during the time when C<0. Properly tuning this value, we see
-![[distance_analytical_exp_comparison2.png]]
-But considering a larger timespan, you see that there is no match anymore
-![[distance_analytical_exp_comparison2long.png]]
-In the present note, we measured the whole dynamics $d(t)$. Considerations about the **annhilation time** $t_c$ are showed [[Annihilation of two kinks with NEGATIVE oscillations|here]].
+## Divergence at C=0
+Notice that the analytical law plotted above diverges if $C\rightarrow 0$, so when comparing the analytically expected $d(t)$ with the data, you must be aware that if $C(t)$ crosses zero, ==**the numerical error on the plotted analytical curve will explode.**==

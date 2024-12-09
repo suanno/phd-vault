@@ -6,3 +6,6 @@ As a consequence, we expect that (==but I didn't check this on paper==) the kink
 $$\dot{x_n}(t)=16 \bar{C}^{\frac12}\frac{[e^{-2^{\frac12}\bar{C}^{\frac12}l_n}-e^{-2^{\frac12}\bar{C}^{\frac12}l_{n+1}}]}{\int_{\chi_{n-0.5}}^{\chi_{n+0.5}}d \chi \partial_{\chi} u_{p}(\chi)}$$
 For two isolated kinks, at a distance $d\ll L$
 $$\dot{d}(t)\simeq-24\sqrt{2} \bar{C}^{\frac12}(t)e^{-2^{\frac12}\bar{C}^{\frac12}d}$$
+# Simulations
+![[C0=1A=0.5T=0.1.png]]
+![[C0=1A=2T=0.1.png]]
